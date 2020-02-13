@@ -1,6 +1,9 @@
+[submodule "ChibiOS"]
+	path = firmware/ChibiOS
+	url = https://github.com/ChibiOS/ChibiOS
 [submodule "firmware/ChibiOS-Contrib"]
 	path = firmware/ChibiOS-Contrib
 	url = https://github.com/ChibiOS/ChibiOS-Contrib
-[submodule "ChibiOS"]
+[submodule "firmware/ChibiOS"]
 	path = firmware/ChibiOS
 	url = https://github.com/ChibiOS/ChibiOS
