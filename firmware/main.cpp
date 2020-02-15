@@ -24,6 +24,9 @@ int main(void)
     halInit();
     chSysInit();
 
+    // Is this missing from halCommunityInit?
+    opampInit();
+
     initOpamps();
 
     while (1);

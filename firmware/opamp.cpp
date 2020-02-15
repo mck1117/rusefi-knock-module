@@ -5,6 +5,11 @@
 
 void initOpamps()
 {
+    opampObjectInit(&OPAMPD1);
+    opampObjectInit(&OPAMPD2);
+    opampObjectInit(&OPAMPD3);
+    opampObjectInit(&OPAMPD4);
+
     const OPAMPConfig opamp1_conf = {
         OPAMP1_CSR_VPSEL_PA01 |
         OPAMP1_CSR_VMSEL_PA03
@@ -56,7 +61,4 @@ void initOpamps()
     opampEnable(&OPAMPD2);
     opampEnable(&OPAMPD3);
     opampEnable(&OPAMPD4);
-
-    // Calibrate opamps
-    opampCalibrate();
 }
