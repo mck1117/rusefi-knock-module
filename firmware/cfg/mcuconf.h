@@ -44,7 +44,7 @@
 #define STM32_LSI_ENABLED                   TRUE
 #define STM32_HSE_ENABLED                   FALSE
 #define STM32_LSE_ENABLED                   FALSE
-#define STM32_SW                            STM32_SW_PLL
+#define STM32_SW                            STM32_SW_HSI
 #define STM32_PLLSRC                        STM32_PLLSRC_HSI
 #define STM32_PREDIV_VALUE                  1
 #define STM32_PLLMUL_VALUE                  9
